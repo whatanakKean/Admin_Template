@@ -1,0 +1,74 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.Ab {
+    display: inline-flex;
+    background-color: rgb(206, 221, 235);
+    margin-left: 30px;
+    border-radius: 0.5rem;
+    border-width: 100px;
+    padding: 30px 530px;
+}
+.Ab h2{
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.Ab div{
+    margin-top: 5px;
+    background-color: aqua;
+    margin-left: 970px;
+    border-radius: 0.5rem;
+    margin-right: 10px;
+    place-content: center;
+    margin-bottom: 10px;
+}
+.AB i{
+    margin-left: 1100px;
+    margin-right: 10px;
+    margin-top: 10px;
+    shape-image-threshold: var(30px);
+    font-size: 1.875rem;
+    padding: 15px;
+}
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+.AB{
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 2em;
+
+}
+.form-control input,
+.form-control textarea {
+    border: 1px solid rgb(250, 248, 248);
+    border-radius: 3px;
+    padding: 30px;
+    display: block;
+    width: 95%;
+    background-color: rgb(131, 131, 247);
+}
+.icon{
+    background-color: aliceblue;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-right: 40px;
+    border-radius: 3em;
+}
+.icon div{
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.icon div div i{
+    margin-right: 15px;
+}
+
+.icon table tr td{
+    display: inline-flex;
+}

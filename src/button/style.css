@@ -1,0 +1,495 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.ab{
+    background-color: rgb(175, 196, 196);
+}
+.Ab{
+    padding: 20px 
+}
+.AB{
+    margin-top: 20px;
+}
+.AB div{
+    background-color: rgb(248, 252, 250);
+    font-size: 80px;
+    border-radius: 0.2em;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.AB div p{
+    margin-left: 30px;
+    font-size: medium;
+}
+.AB div a{
+    margin-left: 80px;
+    
+}
+.AB div a.a1{
+    background: rgb(39, 21, 207);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AB div a.a1:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: transparent;
+    color: rgb(29, 143, 48);
+    transition: .4s;
+}
+.AB div a.a2{
+    background: rgb(97, 95, 95);
+    border: 1px solid rgb(50, 20, 184);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AB div a.a2:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: transparent;
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.AB div a.a3{
+    background: rgb(21, 173, 47);
+    border: 1px solid rgb(62, 33, 192);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AB div a.a3:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: transparent;
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.AB div a.a4{
+    background: rgb(216, 14, 44);
+    border: 1px solid rgb(52, 31, 146);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AB div a.a4:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: transparent;
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.AB div a.a5{
+    background: rgb(223, 226, 36);
+    border: 1px solid rgb(59, 32, 180);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AB div a.a5:hover{
+    transform: scale(1.2);
+    border: 1px solid #40b4e2;
+    background: transparent;
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.AB div a.a6{
+    background: rgb(42, 185, 196);
+    border: 1px solid rgb(53, 26, 177);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AB div a.a6:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: transparent;
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.AB div h2{
+    font-size: medium;
+    font-style: normal;
+    color: blue;
+    margin-left: 30px;
+}
+.BC{
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 0.2em;
+    
+}
+.BC div{
+    font-size: 80px;
+
+}
+.BC div h2{
+    font-size: medium;
+    margin-left: 30px;
+    color: blue;
+}
+.BC div p{
+    margin-left: 30px;
+    font-size: medium;
+}
+.BC div a{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.BC div a.b1{
+    background: rgb(253, 253, 253);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.BC div a.b1:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: blue;
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.BC div a.b2{
+    background: rgb(253, 253, 253);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.BC div a.b2:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(71, 71, 83);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.BC div a.b3{
+    background: rgb(253, 253, 253);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.BC div a.b3:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(43, 207, 51);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.BC div a.b4{
+    background: rgb(253, 253, 253);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.BC div a.b4:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(192, 9, 64);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.BC div a.b5{
+    background: rgb(253, 253, 253);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.BC div a.b5:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(197, 194, 24);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.BC div a.b6{
+    background: rgb(253, 253, 253);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.BC div a.b6:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(26, 157, 161);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.AC{
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 0.2em;
+    
+}
+.AC div{
+    font-size: 80px;
+
+}
+.AC div h2{
+    font-size: medium;
+    margin-left: 30px;
+    color: blue;
+}
+.AC div p{
+    margin-left: 30px;
+    font-size: medium;
+}
+.AC div a{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.AC div a.c1{
+    background: rgb(88, 45, 243);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AC div a.c1:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(5, 5, 105);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.AC div a.c2{
+    background: rgb(119, 115, 115);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AC div a.c2:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(49, 49, 51);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.AC div a.c3{
+    background: rgb(64, 199, 109);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AC div a.c3:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(6, 150, 13);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.AC div a.c4{
+    background: rgb(80, 62, 238);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AC div a.c4:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(6, 4, 107);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.AC div a.c5{
+    background: rgb(87, 212, 221);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.AC div a.c5:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(7, 89, 95);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.CD{
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 0.2em;
+    
+}
+.CD div{
+    font-size: 80px;
+
+}
+.CD div h2{
+    font-size: medium;
+    margin-left: 30px;
+    color: blue;
+}
+.CD div p{
+    margin-left: 30px;
+    font-size: medium;
+}
+.CD div div a{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.CD div div a.d1{
+    background: rgb(88, 45, 243);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 25px 35px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.CD div div a.d1:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(5, 5, 105);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.CD div div a.d2{
+    background: rgb(119, 115, 115);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 25px 35px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.CD div div a.d2:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(49, 49, 51);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.CD div div a.d3{
+    background: rgb(64, 199, 109);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 35px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.CD div div a.d3:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(6, 150, 13);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.CD div a.d4{
+    background: rgb(80, 62, 238);
+    border: 1px solid rgb(22, 165, 53);
+    display: inline-black;
+    text-decoration: none;
+    padding: 9px 35px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.CD div div a.d4:hover{
+    transform: scale(1.2);
+    border: 1px solid #b18933;
+    background: rgb(6, 4, 107);
+    color: rgb(187, 50, 50);
+    transition: .4s;
+}
+.DD{
+
+    padding: 20px;
+    margin-top: 20px;
+}
