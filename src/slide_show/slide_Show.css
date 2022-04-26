@@ -1,20 +1,25 @@
 .content{
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+}
+a {
+    color: white !important;
 }
 /* 1.slide */
 .slide1{
    margin: auto;
    margin-left: 10%;
    padding:5px;
-   margin: 10px;
+   margin: 20px;
    background-color: blanchedalmond;
 }
 .slide1 .carousel{
-    width: 420px;
+    width: 100%;
 }
 p{
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 2%;
 }
 h3{
     margin-top: 6% ;
@@ -23,13 +28,14 @@ h3{
 /* 1.slide */
 /* 2.slide */
 .slide2{
-    margin: auto;
+   margin: auto;
    padding:5px;
-   margin: 10px;
+   margin: 20px;
+   width: 80%;
    background-color: blanchedalmond;
  }
  .slide2 .carousel{
-    width: 450px;
+    width: 100%;
     
 }
  /* 2.slide */
@@ -38,11 +44,12 @@ h3{
 .slide3{
     margin: auto;
    padding:5px;
-   margin: 10px;
+   margin: 20px;
+   width: 80%;
    background-color: blanchedalmond;
 }
 .slide3 .carousel{
-   width: 500px;
+   width: 100%;
 }
  /* 3.slide */
 
@@ -50,10 +57,11 @@ h3{
 .slide4{
     margin: auto;
    padding: 5px;
-   margin: 10px;
+   margin: 20px;
+   width: 80%;
    background-color: blanchedalmond;
 }
 .slide4 .carousel{
-   width: 420px;
+   width: 100%;
 }
  /* 4.slide */

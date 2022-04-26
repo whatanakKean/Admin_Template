@@ -1,153 +1,153 @@
-  body {
-            background-color: #aec4ba;
-            font-family: Verdana;
-            text-align: center;
-        }
-        form {
-            background-color: #fff;
-            max-width: 500px;
-            margin: 50px auto;
-            padding: 30px 20px;
-            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-        }
-        .form-control {
-            text-align: left;
-            margin-bottom: 25px;
-        }
-        .form-control label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        .form-control input,
-        .form-control textarea {
-            border: 1px solid #777;
-            border-radius: 2px;
-            font-family: inherit;
-            padding: 10px;
-            display: block;
-            width: 95%;
-        }
-        .forminline{
-            display: inline-flex;
-        }
-        .forminline div{
-            margin-left: 50px;
-            margin-right: 50px;
-        }
-        .P{
-            background-color: #3b47e6;
-            border: 1px solid #777;
-            border-radius: 10px;
-            font-family: inherit;
-            font-size: 21px;
-            display: block;
-            width: 50%;
-            margin-top: 50px;
-            margin-bottom: 20px;
-        }
-        button {
-            background-color: #05c46b;
-            border: 1px solid #777;
-            border-radius: 2px;
-            font-family: inherit;
-            font-size: 21px;
-            display: block;
-            width: 100%;
-            margin-top: 50px;
-            margin-bottom: 20px;
-        }
-        .form1 {
-            background-color: #fff;
-            padding: 50px 300px;
-            box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.5);
-            border-radius: 0.8em;
-        }
-        .form-control1 {
-           
-            margin-bottom: 25px;
+body {
+    background-color: #aec4ba;
+    font-family: Verdana;
+    text-align: center;
+}
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-control input,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.forminline{
+    display: inline-flex;
+}
+.forminline div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.P{
+    background-color: #3b47e6;
+    border: 1px solid #777;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.form1 {
+    background-color: #fff;
+    padding: 50px 300px;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 0.8em;
+}
+.form-control1 {
+   
+    margin-bottom: 25px;
 
-        }
-        .form-control1 label {
-            display: block;
-            margin-bottom: 10px;
+}
+.form-control1 label {
+    display: block;
+    margin-bottom: 10px;
 
-        }
-        .form-control1 input,
-        .form-control1 textarea {
-            border: 1px solid #777;
-            border-radius: 2px;
-            font-family: inherit;
-            padding: 10px;
-            display: block;
-            width: 100%;
-        }
-        .A {
-            background-color: #47a75f;
-            border: 1px solid #777;
-            border-radius: 2px;
-            font-family: inherit;
-            font-size: 21px;
-            display: block;
-            width: 100%;
-            margin-top: 30px;
-            margin-bottom: 20px;
-        }
-        .B {
-            background-color: #cfb540;
-            border: 1px solid #777;
-            border-radius: 2px;
-            font-family: inherit;
-            font-size: 21px;
-            display: block;
-            width: 100%;
-            margin-top: 30px;
-            margin-bottom: 20px;
-        }
-        .form2 {
-            background-color: #fff;
-            margin: 10px auto;
-            padding: 50px 400px;
-            box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.5);
-            border-radius: 0.8em;
-        }
-        .form-control2 {
-            text-align: left;
-            margin-bottom: 25px;
+}
+.form-control1 input,
+.form-control1 textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+.A {
+    background-color: #47a75f;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.B {
+    background-color: #cfb540;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.form2 {
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 50px 400px;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 0.8em;
+}
+.form-control2 {
+    text-align: left;
+    margin-bottom: 25px;
 
-        }
-        .form-control2 label {
-            display: block;
-            margin-bottom: 10px;
+}
+.form-control2 label {
+    display: block;
+    margin-bottom: 10px;
 
-        }
-        .form-control2 input,
-        .form-control2 textarea {
-            border: 1px solid #777;
-            border-radius: 2px;
-            font-family: inherit;
-            padding: 10px;
-            display: block;
-            width: 100%;
-        }
-        .C {
-            background-color: #29f85d;
-            border: 1px solid #777;
-            border-radius: 8px;
-            font-family: inherit;
-            font-size: 21px;
-            display: block;
-            width: 50%;
-            margin-top: 30px;
-            margin-bottom: 20px;
-        }
-        .D {
-            background-color: #f5212c;
-            border: 1px solid #777;
-            border-radius: 8px;
-            font-family: inherit;
-            font-size: 21px;
-            display: block;
-            width: 50%;
-            margin-top: 30px;
-            margin-bottom: 20px;
-        }
+}
+.form-control2 input,
+.form-control2 textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+.C {
+    background-color: #29f85d;
+    border: 1px solid #777;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.D {
+    background-color: #f5212c;
+    border: 1px solid #777;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

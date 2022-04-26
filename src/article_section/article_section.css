@@ -2,6 +2,7 @@
 /* 1.article */
 .article1{
     margin: 30px;
+	width: 80%;
     border: 2px solid gray;
     background-color: antiquewhite;
 }
@@ -56,8 +57,9 @@ html {
 
 /* Element styles */
 
-img {
-	width: 90%;
+.img1 {
+	width: 100%;
+	
 }
 
 /* Typography */
@@ -125,6 +127,7 @@ img {
 	column-gap: var(--gutter);
 	grid-template-columns: var(--grid);
 	padding: var(--gutter);
+	width: 100%;
 }
 
 .entry {
@@ -193,6 +196,7 @@ img {
 		aspect-ratio: auto;
 		grid-column-start: 1;
 		grid-column-end: span 10;
+
 	}
 
 	.entry-lede .entry-content {
@@ -453,10 +457,36 @@ p {
       width: 4em;
       margin: 0 auto;
     }
+	@media (max-width: 700px){
+		.spread {
+			display: flex;
+			grid-template-columns: minmax(300px, 1.2fr) minmax(300px, 1fr);
+			width: 100%;
+			box-shadow: 0 5px 15px hsla(0, 0, 50%, 0.5);
+			margin: 1em auto;}
+		  
+			.spread__left {
+			  background: black;
+			  background-image: url("https://source.unsplash.com/_-Rk63T6gkk");
+			  background-repeat: no-repeat;
+			  background-position: center center;
+			  background-size: cover;
+		
+			}
+		  
+			.spread__right {
+			  background: white;
+			  padding: 0 3em 0;
+			}
+	}
+	
 /* 4.article */
 
 /* 5.article */
-
+.article5{
+	border: 2px solid cadetblue;
+	margin-left: 10px;
+}
  #hr {
     margin-bottom: 2em;
   }
@@ -474,6 +504,7 @@ p {
   .wrapper {
     display: flex;
     flex-wrap: wrap;
+	width: 90%;
   }
   .panel{
       font-size: 15px;
@@ -517,6 +548,7 @@ p {
   }
   .panel-d img {
       width: 50%;
+	 
     }
   
   .panel-e {
@@ -532,13 +564,13 @@ p {
   
   @media (min-width: 1090px) {
     .article5{
-        width: 96%;
+        width: 80%;
         margin: 20px;
         border: 2px solid rebeccapurple;
         height: fit-content;
     }
     .wrapper {
-      /* max-width: 100%; */
+      max-width: 80%;
       margin: 0 20px;
       display: grid;
       grid-gap: 20px;
@@ -595,9 +627,10 @@ p {
       }
     
     .panel-e {
-      grid-column: 4;
+      grid-column: span 1;
       grid-row: 1;
       font-size: 30px;
+	  margin-left: -200px;
     }
     
     .article5 figcaption {
